@@ -1,0 +1,37 @@
+import org.code.neighborhood.*;
+
+public class NeighborhoodRunner {
+  public static void main(String[] args) {
+
+    // Creates a Painter called mason
+    Painter mason = new Painter();
+
+    // Moves forward one space
+    mason.move();
+
+    // Turns right by turning left three times
+    mason.turnLeft();
+    mason.turnLeft();
+    mason.turnLeft();
+
+    // Moves forward one space
+    mason.move();
+
+    // Takes paint three times to get all the paint from the bucket
+    mason.takePaint();
+    mason.takePaint();
+    mason.takePaint();
+
+    // Moves and paints three times
+    mason.move();
+    mason.paint("SkyBlue");
+    mason.move();
+    mason.paint("SkyBlue");
+    mason.move();
+    mason.paint("SkyBlue");
+
+    // Moves forward one space to get off the paint
+    mason.move();
+    
+  }
+}
