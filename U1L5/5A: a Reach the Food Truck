@@ -1,0 +1,27 @@
+import org.code.neighborhood.*;
+
+public class NeighborhoodRunner {
+  public static void main(String[] args) {
+
+    /* ----------------------------------- TO DO -----------------------------------
+     * ✅ Instantiate a Painter object, then use the methods in the Painter class
+     * to navigate through The Neighborhood to reach the food truck.
+     * -----------------------------------------------------------------------------
+     */
+    Painter em = new Painter();
+    em.move();
+    em.move();
+    em.move();
+    em.move();
+
+    em.turnLeft();
+    em.turnLeft();
+    em.turnLeft();
+
+    em.move();
+    em.move();
+
+    
+    
+  }
+}
