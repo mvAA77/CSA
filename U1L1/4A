@@ -1,0 +1,34 @@
+import org.code.neighborhood.*;
+
+public class NeighborhoodRunner {
+  public static void main(String[] args) {
+
+    // Creates a Painter called amelia
+    Painter amelia = new Painter();
+
+    // Moves forward one space
+    amelia.move();
+
+    // Takes paint three times to get all the paint from the bucket
+    amelia.takePaint();
+    amelia.takePaint();
+    amelia.takePaint();
+
+    // Turns right by turning left three times
+    amelia.turnLeft();
+    amelia.turnLeft();
+    amelia.turnLeft();
+
+    // Moves and paints three times
+    amelia.move();
+    amelia.paint("LawnGreen");
+    amelia.move();
+    amelia.paint("LawnGreen");
+    amelia.move();
+    amelia.paint("LawnGreen");
+
+    // Moves forward one space to get off the paint
+    amelia.move();
+    
+  }
+}
