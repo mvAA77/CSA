@@ -1,0 +1,68 @@
+import org.code.neighborhood.*;
+
+public class NeighborhoodRunner {
+  public static void main(String[] args) {
+
+    /* ----------------------------------- TO DO -----------------------------------
+     * ✅ Instantiate a Painter object, then use the methods in the Painter class
+     * to navigate through The Neighborhood to reach the traffic cone.
+     * -----------------------------------------------------------------------------
+     */
+
+    Painter dil = new Painter();
+    dil.turnLeft();
+    dil.turnLeft();
+    dil.turnLeft();
+
+    dil.move();
+    dil.move();
+    dil.move();
+    dil.move();
+    dil.turnLeft();
+    
+    dil.move();
+    dil.move();
+    dil.move();
+    dil.move();
+
+    dil.turnLeft();
+    dil.move();
+    dil.move();
+    dil.turnLeft();
+    dil.turnLeft();
+    dil.turnLeft();
+    dil.move();
+    dil.move();
+    dil.move();
+    dil.move();
+    dil.turnLeft();
+    dil.turnLeft();
+    dil.turnLeft();
+    dil.move();
+    dil.move();
+    dil.move();
+    dil.move();
+    dil.move();
+    dil.turnLeft();
+    dil.turnLeft();
+    dil.turnLeft();
+    dil.move();
+    dil.turnLeft();
+    dil.move();
+    dil.move();
+    dil.turnLeft();
+    dil.turnLeft();
+    dil.turnLeft();
+    dil.move();
+    dil.move();
+    dil.move();
+    dil.move();
+    dil.turnLeft();
+    dil.turnLeft();
+    dil.turnLeft();
+    
+    
+    
+    
+  }
+}
