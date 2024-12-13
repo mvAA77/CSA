@@ -1,0 +1,130 @@
+import org.code.neighborhood.*;
+
+public class NeighborhoodRunner {
+  public static void main(String[] args) {
+
+    /* ----------------------------------- TO DO -----------------------------------
+     * ✅ Instantiate the missing Painter objects.
+     * -----------------------------------------------------------------------------
+     */
+    Painter jude = new Painter();
+    Painter evan = new Painter();
+
+
+    
+
+    jude.move();
+
+    jude.turnLeft();
+    jude.turnLeft();
+    jude.turnLeft();
+
+    jude.move();
+    jude.move();
+
+    jude.turnLeft();
+
+    jude.move();
+    jude.move();
+
+    jude.turnLeft();
+
+    jude.move();
+    jude.move();
+
+    jude.turnLeft();
+    jude.turnLeft();
+    jude.turnLeft();
+
+    jude.move();
+    jude.move();
+    jude.move();
+    jude.move();
+
+    jude.turnLeft();
+    jude.turnLeft();
+    jude.turnLeft();
+
+    jude.move();
+    jude.move();
+    jude.move();
+    jude.move();
+    jude.move();
+    jude.move();
+
+    jude.turnLeft();
+    jude.turnLeft();
+    jude.turnLeft();
+
+    jude.move();
+    jude.move();
+
+    jude.turnLeft();
+    jude.turnLeft();
+    jude.turnLeft();
+
+    jude.move();
+    jude.move();
+    jude.move();
+
+    evan.move();
+
+    evan.turnLeft();
+    evan.turnLeft();
+    evan.turnLeft();
+
+    evan.move();
+    evan.move();
+
+    evan.turnLeft();
+
+    evan.move();
+    evan.move();
+
+    evan.turnLeft();
+
+    evan.move();
+    evan.move();
+
+    evan.turnLeft();
+    evan.turnLeft();
+    evan.turnLeft();
+
+    evan.move();
+    evan.move();
+    evan.move();
+    evan.move();
+
+    evan.turnLeft();
+    evan.turnLeft();
+    evan.turnLeft();
+
+    evan.move();
+    evan.move();
+    evan.move();
+    evan.move();
+    evan.move();
+    evan.move();
+
+    evan.turnLeft();
+    evan.turnLeft();
+    evan.turnLeft();
+
+    evan.move();
+    evan.move();
+
+    evan.turnLeft();
+
+    evan.move();
+
+    evan.turnLeft();
+    evan.turnLeft();
+    evan.turnLeft();
+
+    evan.move();
+    evan.move();
+    evan.move();
+    evan.move();
+    
+  }
+}
