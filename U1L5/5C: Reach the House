@@ -1,0 +1,38 @@
+import org.code.neighborhood.*;
+
+public class NeighborhoodRunner {
+  public static void main(String[] args) {
+
+    /* ----------------------------------- TO DO -----------------------------------
+     * ✅ Instantiate a Painter object, then use the methods in the Painter class
+     * to navigate through The Neighborhood to reach the house.
+     * -----------------------------------------------------------------------------
+     */
+
+    Painter ji = new Painter();
+    ji.turnLeft();
+    ji.turnLeft();
+    ji.turnLeft();
+
+    ji.move();
+    ji.move();
+    ji.move();
+    ji.move();
+    ji.move();
+    ji.move();
+    ji.move();
+
+    ji.turnLeft();
+    ji.move();
+    ji.move();
+    ji.move();
+    ji.move();
+    ji.move();
+
+    ji.turnLeft();
+    ji.move();
+    ji.move();
+    
+    
+  }
+}
