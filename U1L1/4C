@@ -1,0 +1,43 @@
+import org.code.neighborhood.*;
+
+public class NeighborhoodRunner {
+  public static void main(String[] args) {
+
+    // Creates a Painter called aria
+    Painter aria = new Painter();
+
+    // Moves forward four spaces
+    aria.move();
+    aria.move();
+    aria.move();
+    aria.move();
+
+    // Turns right by turning left three times
+    aria.turnLeft();
+    aria.turnLeft();
+    aria.turnLeft();
+
+    // Moves forward one space
+    aria.move();
+
+    // Takes paint four times to get all the paint from the bucket
+    aria.takePaint();
+    aria.takePaint();
+    aria.takePaint();
+    aria.takePaint();
+
+    // Moves and paints four times
+    aria.move();
+    aria.paint("plum");
+    aria.move();
+    aria.paint("plum");
+    aria.move();
+    aria.paint("plum");
+    aria.move();
+    aria.paint("plum");
+
+    // Moves forward one space to get off the paint
+    aria.move();
+    
+  }
+}
