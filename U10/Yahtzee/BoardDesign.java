@@ -89,11 +89,12 @@ public class BoardDesign {
 
         
     }
-    
+    // Allows GUI to be run from the main method
     public static void runGUI() {
         JFrame.setDefaultLookAndFeelDecorated(true);
 
         BoardDesign board = new BoardDesign();
     }
 }
+
 
